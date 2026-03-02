@@ -1,21 +1,35 @@
-using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using SistemaNominaMVC.Models;
+using SistemaNominaMVC.Attributes;
+using SistemaNominaMVC.Data;
+using Microsoft.EntityFrameworkCore;
 
 namespace SistemaNominaMVC.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private readonly ApplicationDbContext _context;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ApplicationDbContext context)
         {
-            _logger = logger;
+            _context = context;
         }
 
-        public IActionResult Index()
+        [SessionAuthorize]
+        public async Task<IActionResult> Index()
         {
-            return View();
+            // Datos para el dashboard
+            ViewBag.TotalEmpleados = await _context.Employees.CountAsync(e => e.IsActive);
+            ViewBag.TotalDepartamentos = await _context.Departments.CountAsync(d => d.IsActive);
+            ViewBag.SalariosVigentes = await _context.Salaries.CountAsync(s => s.to_date == null);
+
+            // Últimos empleados
+            var ultimosEmpleados = await _context.Employees
+                .Where(e => e.IsActive)
+                .OrderByDescending(e => e.hire_date)
+                .Take(5)
+                .ToListAsync();
+
+            return View(ultimosEmpleados);
         }
 
         public IActionResult Privacy()
@@ -26,7 +40,7 @@ namespace SistemaNominaMVC.Controllers
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            return View();
         }
     }
 }

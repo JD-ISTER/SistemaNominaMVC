@@ -26,7 +26,7 @@ namespace SistemaNominaMVC.Models
         [Display(Name = "Fecha Fin")]
         public DateTime? to_date { get; set; }
 
-        // Propiedad de navegación
-        public virtual Employee Employee { get; set; }
+        // Propiedad de navegación - Puede ser null
+        public virtual Employee? Employee { get; set; }
     }
 }

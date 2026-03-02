@@ -56,15 +56,19 @@
             },
             "BCrypt.Net-Next": {
               "target": "Package",
-              "version": "[4.1.0, )"
+              "version": "[4.0.3, )"
             },
             "DinkToPdf": {
               "target": "Package",
               "version": "[1.0.8, )"
             },
+            "DinkToPdfIncludesDependencies": {
+              "target": "Package",
+              "version": "[1.0.8, )"
+            },
             "EPPlus": {
               "target": "Package",
-              "version": "[8.4.2, )"
+              "version": "[4.5.3.3, )"
             },
             "FluentValidation.AspNetCore": {
               "target": "Package",
@@ -85,6 +89,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.0, )"
+            },
+            "Microsoft.jQuery.Unobtrusive.Validation": {
+              "target": "Package",
+              "version": "[4.0.0, )"
             }
           },
           "imports": [

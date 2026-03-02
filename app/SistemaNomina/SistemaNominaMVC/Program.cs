@@ -1,5 +1,9 @@
 using Microsoft.EntityFrameworkCore;
 using SistemaNominaMVC.Data;
+using SistemaNominaMVC.Helpers;
+using DinkToPdf;
+using DinkToPdf.Contracts;
+using OfficeOpenXml;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -22,6 +26,11 @@ builder.Services.AddSession(options =>
 // Agregar HttpContextAccessor
 builder.Services.AddHttpContextAccessor();
 
+
+
+// Configurar DinkToPdf para exportación a PDF
+builder.Services.AddSingleton(typeof(IConverter), new SynchronizedConverter(new PdfTools()));
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -36,11 +45,28 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+app.UseAuthentication();
 app.UseAuthorization();
-app.UseSession();
+app.UseSession();  // Debe ir antes de MapControllerRoute
 
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
+
+// Inicializar base de datos con datos de prueba
+using (var scope = app.Services.CreateScope())
+{
+    var services = scope.ServiceProvider;
+    try
+    {
+        var context = services.GetRequiredService<ApplicationDbContext>();
+        DbInitializer.Initialize(context);
+    }
+    catch (Exception ex)
+    {
+        var logger = services.GetRequiredService<ILogger<Program>>();
+        logger.LogError(ex, "Error al inicializar la base de datos.");
+    }
+}
 
 app.Run();

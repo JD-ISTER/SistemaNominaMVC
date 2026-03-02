@@ -3,6 +3,9 @@ using Microsoft.EntityFrameworkCore;
 using SistemaNominaMVC.Attributes;
 using SistemaNominaMVC.Data;
 using SistemaNominaMVC.Models;
+using System;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace SistemaNominaMVC.Controllers
 {
@@ -35,6 +38,9 @@ namespace SistemaNominaMVC.Controllers
                     e.ci.Contains(searchString) ||
                     e.correo.Contains(searchString));
             }
+
+            // Ordenar por defecto
+            employees = employees.OrderBy(e => e.last_name).ThenBy(e => e.first_name);
 
             int pageSize = 10;
             return View(await PaginatedList<Employee>.CreateAsync(employees.AsNoTracking(), pageNumber ?? 1, pageSize));

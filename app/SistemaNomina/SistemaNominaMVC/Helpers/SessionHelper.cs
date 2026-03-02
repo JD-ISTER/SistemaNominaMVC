@@ -1,6 +1,5 @@
 ﻿using Microsoft.AspNetCore.Http;
 using SistemaNominaMVC.Models;
-using System.Text.Json;
 
 namespace SistemaNominaMVC.Helpers
 {
@@ -19,7 +18,7 @@ namespace SistemaNominaMVC.Helpers
             return !string.IsNullOrEmpty(session.GetString("UserId"));
         }
 
-        public static string GetUserRole(this ISession session)
+        public static string? GetUserRole(this ISession session)
         {
             return session.GetString("UserRole");
         }

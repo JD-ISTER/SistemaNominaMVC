@@ -12,7 +12,7 @@ namespace SistemaNominaMVC.Models
         [Required]
         [StringLength(20)]
         [Display(Name = "CI/NIT")]
-        public string ci { get; set; }
+        public string ci { get; set; } = string.Empty;  // Inicializado
 
         [Required]
         [Display(Name = "Fecha de Nacimiento")]
@@ -22,17 +22,17 @@ namespace SistemaNominaMVC.Models
         [Required]
         [StringLength(50)]
         [Display(Name = "Primer Nombre")]
-        public string first_name { get; set; }
+        public string first_name { get; set; } = string.Empty;  // Inicializado
 
         [Required]
         [StringLength(50)]
         [Display(Name = "Apellido")]
-        public string last_name { get; set; }
+        public string last_name { get; set; } = string.Empty;  // Inicializado
 
         [Required]
         [StringLength(1)]
         [Display(Name = "Género")]
-        public string gender { get; set; } // 'M' o 'F'
+        public string gender { get; set; } = string.Empty;  // Inicializado
 
         [Required]
         [Display(Name = "Fecha de Contratación")]
@@ -43,15 +43,15 @@ namespace SistemaNominaMVC.Models
         [EmailAddress]
         [StringLength(100)]
         [Display(Name = "Correo Electrónico")]
-        public string correo { get; set; }
+        public string correo { get; set; } = string.Empty;  // Inicializado
 
         public bool IsActive { get; set; } = true;
 
-        // Propiedades de navegación
-        public virtual ICollection<DeptEmp> DeptEmps { get; set; }
-        public virtual ICollection<DeptManager> DeptManagers { get; set; }
-        public virtual ICollection<Title> Titles { get; set; }
-        public virtual ICollection<Salary> Salaries { get; set; }
-        public virtual User User { get; set; }
+        // Propiedades de navegación - Inicializadas como colecciones vacías
+        public virtual ICollection<DeptEmp> DeptEmps { get; set; } = new List<DeptEmp>();
+        public virtual ICollection<DeptManager> DeptManagers { get; set; } = new List<DeptManager>();
+        public virtual ICollection<Title> Titles { get; set; } = new List<Title>();
+        public virtual ICollection<Salary> Salaries { get; set; } = new List<Salary>();
+        public virtual User? User { get; set; }  // Nullable porque puede no tener usuario
     }
 }

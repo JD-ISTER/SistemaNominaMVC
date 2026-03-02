@@ -11,7 +11,7 @@ namespace SistemaNominaMVC.Models
         [Required]
         [StringLength(50)]
         [Display(Name = "Usuario")]
-        public string usuario { get; set; }
+        public string usuario { get; set; } = string.Empty;  // Inicializado
 
         [Required]
         [DataType(DataType.DateTime)]
@@ -21,7 +21,7 @@ namespace SistemaNominaMVC.Models
         [Required]
         [StringLength(500)]
         [Display(Name = "Detalle Cambio")]
-        public string DetalleCambio { get; set; }
+        public string DetalleCambio { get; set; } = string.Empty;  // Inicializado
 
         [Required]
         [Column(TypeName = "decimal(18,2)")]
@@ -32,8 +32,8 @@ namespace SistemaNominaMVC.Models
         [Display(Name = "Empleado")]
         public int emp_no { get; set; }
 
-        // Propiedad de navegación
+        // Propiedad de navegación - Puede ser null
         [ForeignKey("emp_no")]
-        public virtual Employee Employee { get; set; }
+        public virtual Employee? Employee { get; set; }
     }
 }

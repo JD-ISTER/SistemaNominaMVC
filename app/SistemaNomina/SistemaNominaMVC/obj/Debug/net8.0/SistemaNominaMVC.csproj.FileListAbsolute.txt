@@ -14,7 +14,6 @@ C:\SistemaNomina\SistemaNominaMVC\app\SistemaNomina\SistemaNominaMVC\bin\Debug\n
 C:\SistemaNomina\SistemaNominaMVC\app\SistemaNomina\SistemaNominaMVC\bin\Debug\net8.0\BCrypt.Net-Next.dll
 C:\SistemaNomina\SistemaNominaMVC\app\SistemaNomina\SistemaNominaMVC\bin\Debug\net8.0\DinkToPdf.dll
 C:\SistemaNomina\SistemaNominaMVC\app\SistemaNomina\SistemaNominaMVC\bin\Debug\net8.0\EPPlus.dll
-C:\SistemaNomina\SistemaNominaMVC\app\SistemaNomina\SistemaNominaMVC\bin\Debug\net8.0\EPPlus.Interfaces.dll
 C:\SistemaNomina\SistemaNominaMVC\app\SistemaNomina\SistemaNominaMVC\bin\Debug\net8.0\FluentValidation.dll
 C:\SistemaNomina\SistemaNominaMVC\app\SistemaNomina\SistemaNominaMVC\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
 C:\SistemaNomina\SistemaNominaMVC\app\SistemaNomina\SistemaNominaMVC\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
@@ -30,8 +29,6 @@ C:\SistemaNomina\SistemaNominaMVC\app\SistemaNomina\SistemaNominaMVC\bin\Debug\n
 C:\SistemaNomina\SistemaNominaMVC\app\SistemaNomina\SistemaNominaMVC\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\SistemaNomina\SistemaNominaMVC\app\SistemaNomina\SistemaNominaMVC\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\SistemaNomina\SistemaNominaMVC\app\SistemaNomina\SistemaNominaMVC\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\SistemaNomina\SistemaNominaMVC\app\SistemaNomina\SistemaNominaMVC\bin\Debug\net8.0\Microsoft.Extensions.Configuration.FileExtensions.dll
-C:\SistemaNomina\SistemaNominaMVC\app\SistemaNomina\SistemaNominaMVC\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Json.dll
 C:\SistemaNomina\SistemaNominaMVC\app\SistemaNomina\SistemaNominaMVC\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
 C:\SistemaNomina\SistemaNominaMVC\app\SistemaNomina\SistemaNominaMVC\bin\Debug\net8.0\Microsoft.Identity.Client.dll
 C:\SistemaNomina\SistemaNominaMVC\app\SistemaNomina\SistemaNominaMVC\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
@@ -41,7 +38,6 @@ C:\SistemaNomina\SistemaNominaMVC\app\SistemaNomina\SistemaNominaMVC\bin\Debug\n
 C:\SistemaNomina\SistemaNominaMVC\app\SistemaNomina\SistemaNominaMVC\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
 C:\SistemaNomina\SistemaNominaMVC\app\SistemaNomina\SistemaNominaMVC\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\SistemaNomina\SistemaNominaMVC\app\SistemaNomina\SistemaNominaMVC\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
-C:\SistemaNomina\SistemaNominaMVC\app\SistemaNomina\SistemaNominaMVC\bin\Debug\net8.0\Microsoft.IO.RecyclableMemoryStream.dll
 C:\SistemaNomina\SistemaNominaMVC\app\SistemaNomina\SistemaNominaMVC\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
 C:\SistemaNomina\SistemaNominaMVC\app\SistemaNomina\SistemaNominaMVC\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
 C:\SistemaNomina\SistemaNominaMVC\app\SistemaNomina\SistemaNominaMVC\bin\Debug\net8.0\Mono.TextTemplating.dll
@@ -56,9 +52,7 @@ C:\SistemaNomina\SistemaNominaMVC\app\SistemaNomina\SistemaNominaMVC\bin\Debug\n
 C:\SistemaNomina\SistemaNominaMVC\app\SistemaNomina\SistemaNominaMVC\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
 C:\SistemaNomina\SistemaNominaMVC\app\SistemaNomina\SistemaNominaMVC\bin\Debug\net8.0\System.Memory.Data.dll
 C:\SistemaNomina\SistemaNominaMVC\app\SistemaNomina\SistemaNominaMVC\bin\Debug\net8.0\System.Runtime.Caching.dll
-C:\SistemaNomina\SistemaNominaMVC\app\SistemaNomina\SistemaNominaMVC\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
 C:\SistemaNomina\SistemaNominaMVC\app\SistemaNomina\SistemaNominaMVC\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
-C:\SistemaNomina\SistemaNominaMVC\app\SistemaNomina\SistemaNominaMVC\bin\Debug\net8.0\System.Security.Cryptography.Xml.dll
 C:\SistemaNomina\SistemaNominaMVC\app\SistemaNomina\SistemaNominaMVC\bin\Debug\net8.0\System.Security.Permissions.dll
 C:\SistemaNomina\SistemaNominaMVC\app\SistemaNomina\SistemaNominaMVC\bin\Debug\net8.0\System.Windows.Extensions.dll
 C:\SistemaNomina\SistemaNominaMVC\app\SistemaNomina\SistemaNominaMVC\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
@@ -123,7 +117,6 @@ C:\SistemaNomina\SistemaNominaMVC\app\SistemaNomina\SistemaNominaMVC\bin\Debug\n
 C:\SistemaNomina\SistemaNominaMVC\app\SistemaNomina\SistemaNominaMVC\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
 C:\SistemaNomina\SistemaNominaMVC\app\SistemaNomina\SistemaNominaMVC\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 C:\SistemaNomina\SistemaNominaMVC\app\SistemaNomina\SistemaNominaMVC\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
-C:\SistemaNomina\SistemaNominaMVC\app\SistemaNomina\SistemaNominaMVC\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
 C:\SistemaNomina\SistemaNominaMVC\app\SistemaNomina\SistemaNominaMVC\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\SistemaNomina\SistemaNominaMVC\app\SistemaNomina\SistemaNominaMVC\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\SistemaNomina\SistemaNominaMVC\app\SistemaNomina\SistemaNominaMVC\obj\Debug\net8.0\SistemaNominaMVC.csproj.AssemblyReference.cache
@@ -147,10 +140,11 @@ C:\SistemaNomina\SistemaNominaMVC\app\SistemaNomina\SistemaNominaMVC\obj\Debug\n
 C:\SistemaNomina\SistemaNominaMVC\app\SistemaNomina\SistemaNominaMVC\obj\Debug\net8.0\staticwebassets.build.json.cache
 C:\SistemaNomina\SistemaNominaMVC\app\SistemaNomina\SistemaNominaMVC\obj\Debug\net8.0\staticwebassets.development.json
 C:\SistemaNomina\SistemaNominaMVC\app\SistemaNomina\SistemaNominaMVC\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\SistemaNomina\SistemaNominaMVC\app\SistemaNomina\SistemaNominaMVC\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\SistemaNomina\SistemaNominaMVC\app\SistemaNomina\SistemaNominaMVC\obj\Debug\net8.0\SistemaN.5BDD8FA6.Up2Date
 C:\SistemaNomina\SistemaNominaMVC\app\SistemaNomina\SistemaNominaMVC\obj\Debug\net8.0\SistemaNominaMVC.dll
 C:\SistemaNomina\SistemaNominaMVC\app\SistemaNomina\SistemaNominaMVC\obj\Debug\net8.0\refint\SistemaNominaMVC.dll
 C:\SistemaNomina\SistemaNominaMVC\app\SistemaNomina\SistemaNominaMVC\obj\Debug\net8.0\SistemaNominaMVC.pdb
 C:\SistemaNomina\SistemaNominaMVC\app\SistemaNomina\SistemaNominaMVC\obj\Debug\net8.0\SistemaNominaMVC.genruntimeconfig.cache
 C:\SistemaNomina\SistemaNominaMVC\app\SistemaNomina\SistemaNominaMVC\obj\Debug\net8.0\ref\SistemaNominaMVC.dll
+C:\SistemaNomina\SistemaNominaMVC\app\SistemaNomina\SistemaNominaMVC\bin\Debug\net8.0\System.Xml.XPath.XmlDocument.dll
+C:\SistemaNomina\SistemaNominaMVC\app\SistemaNomina\SistemaNominaMVC\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

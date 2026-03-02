@@ -1,4 +1,4 @@
-﻿using BCrypt.Net;
+﻿using BCrypt.Net;  // Este using es correcto
 
 namespace SistemaNominaMVC.Helpers
 {
@@ -6,12 +6,14 @@ namespace SistemaNominaMVC.Helpers
     {
         public static string HashPassword(string password)
         {
-            return BCrypt.HashPassword(password);
+            
+            return BCrypt.Net.BCrypt.HashPassword(password);
         }
 
         public static bool VerifyPassword(string password, string hash)
         {
-            return BCrypt.Verify(password, hash);
+            
+            return BCrypt.Net.BCrypt.Verify(password, hash);
         }
     }
 }

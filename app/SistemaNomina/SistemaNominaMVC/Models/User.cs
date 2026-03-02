@@ -15,20 +15,20 @@ namespace SistemaNominaMVC.Models
         [Required]
         [StringLength(50)]
         [Display(Name = "Usuario")]
-        public string usuario { get; set; }
+        public string usuario { get; set; } = string.Empty;  // Inicializado
 
         [Required]
         [StringLength(255)]
-        public string clave { get; set; } // Almacenará el hash
+        public string clave { get; set; } = string.Empty;  // Inicializado
 
         [Required]
         [StringLength(20)]
         [Display(Name = "Rol")]
-        public string rol { get; set; } // "Administrador" o "RRHH"
+        public string rol { get; set; } = string.Empty;  // Inicializado
 
         public bool IsActive { get; set; } = true;
 
-        // Propiedad de navegación
-        public virtual Employee Employee { get; set; }
+        // Propiedad de navegación - Puede ser null
+        public virtual Employee? Employee { get; set; }
     }
 }

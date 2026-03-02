@@ -24,12 +24,68 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/SistemaNomina/SistemaNominaMVC/app/SistemaNomina/SistemaNominaMVC/Views/Departments/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/SistemaNomina/SistemaNominaMVC/app/SistemaNomina/SistemaNominaMVC/Views/Departments/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/SistemaNomina/SistemaNominaMVC/app/SistemaNomina/SistemaNominaMVC/Views/Employees/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/SistemaNomina/SistemaNominaMVC/app/SistemaNomina/SistemaNominaMVC/Views/Employees/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/SistemaNomina/SistemaNominaMVC/app/SistemaNomina/SistemaNominaMVC/Views/Employees/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/SistemaNomina/SistemaNominaMVC/app/SistemaNomina/SistemaNominaMVC/Views/Employees/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/SistemaNomina/SistemaNominaMVC/app/SistemaNomina/SistemaNominaMVC/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/SistemaNomina/SistemaNominaMVC/app/SistemaNomina/SistemaNominaMVC/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/SistemaNomina/SistemaNominaMVC/app/SistemaNomina/SistemaNominaMVC/Views/Reports/Auditoria.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0c1xBdWRpdG9yaWEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/SistemaNomina/SistemaNominaMVC/app/SistemaNomina/SistemaNominaMVC/Views/Reports/CambiosSalariales.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0c1xDYW1iaW9zU2FsYXJpYWxlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/SistemaNomina/SistemaNominaMVC/app/SistemaNomina/SistemaNominaMVC/Views/Reports/EstructuraOrganizacional.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0c1xFc3RydWN0dXJhT3JnYW5pemFjaW9uYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/SistemaNomina/SistemaNominaMVC/app/SistemaNomina/SistemaNominaMVC/Views/Reports/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/SistemaNomina/SistemaNominaMVC/app/SistemaNomina/SistemaNominaMVC/Views/Reports/NominaVigente.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0c1xOb21pbmFWaWdlbnRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/SistemaNomina/SistemaNominaMVC/app/SistemaNomina/SistemaNominaMVC/Views/Salaries/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsYXJpZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/SistemaNomina/SistemaNominaMVC/app/SistemaNomina/SistemaNominaMVC/Views/Salaries/History.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsYXJpZXNcSGlzdG9yeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/SistemaNomina/SistemaNominaMVC/app/SistemaNomina/SistemaNominaMVC/Views/Salaries/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsYXJpZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/SistemaNomina/SistemaNominaMVC/app/SistemaNomina/SistemaNominaMVC/Views/Shared/Error.cshtml]

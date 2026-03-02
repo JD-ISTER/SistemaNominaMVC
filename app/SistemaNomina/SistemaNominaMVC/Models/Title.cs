@@ -15,7 +15,7 @@ namespace SistemaNominaMVC.Models
         [Required]
         [StringLength(50)]
         [Display(Name = "Título/Cargo")]
-        public string title { get; set; }
+        public string title { get; set; } = string.Empty;  // Inicializado
 
         [Required]
         [DataType(DataType.Date)]
@@ -26,7 +26,7 @@ namespace SistemaNominaMVC.Models
         [Display(Name = "Fecha Fin")]
         public DateTime? to_date { get; set; }
 
-        // Propiedad de navegación
-        public virtual Employee Employee { get; set; }
+        // Propiedad de navegación - Puede ser null
+        public virtual Employee? Employee { get; set; }
     }
 }

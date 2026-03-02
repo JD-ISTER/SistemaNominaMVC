@@ -14,7 +14,7 @@ namespace SistemaNominaMVC.Models
 
         [Required]
         [ForeignKey("Department")]
-        public string dept_no { get; set; }
+        public string dept_no { get; set; } = string.Empty;  // Inicializado
 
         [Required]
         [DataType(DataType.Date)]
@@ -25,8 +25,8 @@ namespace SistemaNominaMVC.Models
         [Display(Name = "Fecha Fin")]
         public DateTime? to_date { get; set; }
 
-        // Propiedades de navegación
-        public virtual Employee Employee { get; set; }
-        public virtual Department Department { get; set; }
+        // Propiedades de navegación - Pueden ser null
+        public virtual Employee? Employee { get; set; }
+        public virtual Department? Department { get; set; }
     }
 }
